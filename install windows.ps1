@@ -20,7 +20,7 @@ choco install drawio -y
 <#
 .Nice to Have
 #>
-choco install anydesk -y
+choco install anydesk.install -y
 choco install zoom -y
 choco install winrar -y
 choco install vlc -y
