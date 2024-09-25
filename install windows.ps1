@@ -1,8 +1,8 @@
 Write-Host "Hello The AVOLife!"
 Read-Host "Press any key to continue.."
 
-Set-ExecutionPolicy Bypass -Scope Process
-
+Set-ExecutionPolicy -ExecutionPolicy Bypass 
+#-Scope Process -Force
 <#
 .Install Chocolatey
 #>
