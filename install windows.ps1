@@ -1,12 +1,12 @@
 Write-Host "Hello The AVOLife!"
 Read-Host "Press any key to continue.."
 
-Set-ExecutionPolicy -ExecutionPolicy Bypass 
+Set-ExecutionPolicy -ExecutionPolicy Bypass -scope Process -Force
 #-Scope Process -Force
 <#
 .Install Chocolatey
 #>
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+Set-ExecutionPolicy -ExecutionPolicy Bypass -scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 choco -?
 
